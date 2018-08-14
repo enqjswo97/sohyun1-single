@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'sub_first_second/index'
+
   root 'page#layout_test'
   get 'page/layout_test'
   get 'page/layout_baeminchan'
